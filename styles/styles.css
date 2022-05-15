@@ -65,7 +65,7 @@ section {
   position: absolute;
   left: 0;
   right: 0;
-  padding: 3rem 18rem;
+  padding: 3rem 12rem;
 }
 
 .section {
@@ -379,15 +379,15 @@ section {
   padding-right: 5rem;
 }
 
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 .about-container .left-about p {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
-}
-
-.about-container .left-about h4 {
-  font-size: 2rem;
-  text-transform: uppercase;
 }
 
 .about-stats {
@@ -448,7 +448,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-container .progress .html {
-  width: 60%;
+  width: 80%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-container .progress .css {
@@ -460,15 +460,19 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-container .progress .vuejs {
-  width: 90%;
+  width: 80%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-container .progress .azure {
-  width: 50%;
+  width: 40%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-container .progress .java {
-  width: 40%;
+.about-stats .progress-bars .progress-bar .progress-container .progress .tdd {
+  width: 60%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-container .progress .reactjs {
+  width: 20%;
 }
 
 .stat-title {

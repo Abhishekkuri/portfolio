@@ -63,7 +63,7 @@ section {
   position: absolute;
   left: 0;
   right: 0;
-  padding: 3rem 18rem;
+  padding: 3rem 12rem;
 }
 
 .section {
@@ -276,14 +276,14 @@ section {
 
   .left-about {
     padding-right: 5rem;
+    h4 {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
     p {
       line-height: 2rem;
       padding: 1rem;
       color: var(--color-grey-1);
-    }
-    h4 {
-      font-size: 2rem;
-      text-transform: uppercase;
     }
   }
 }
@@ -322,7 +322,7 @@ section {
             width: 90%;
           }
           .html {
-            width: 60%;
+            width: 80%;
           }
           .css {
             width: 70%;
@@ -331,13 +331,16 @@ section {
             width: 80%;
           }
           .vuejs {
-            width: 90%;
+            width: 80%;
           }
           .azure {
-            width: 50%;
-          }
-          .java {
             width: 40%;
+          }
+          .tdd {
+            width: 60%;
+          }
+          .reactjs {
+            width: 20%;
           }
         }
       }
